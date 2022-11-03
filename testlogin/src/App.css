@@ -59,11 +59,22 @@ input{
 }
 
 button {
-  width: 380px;
+  width: 360px;
   height: 50px;
   border-radius: 60px;
   background-color: purple;
   color: white;
   font-size: 25px;
   border: none;
+}
+.login-button{
+  padding-left: 2px;
+  padding-top: 24px;
+}
+.link {
+  font-size: 22px;
+  font-weight: 400;
+}
+a{
+  color: blue;
 }

@@ -24,7 +24,14 @@ function App() {
               <img src={pass} alt="pass" className='email' />
               <input type="text" placeholder="password" className='name'/>
             </div>
+            <div className='login-button'>
             <button>Login</button>
+            </div>
+            
+              <p className='link'>
+                <a href='#'>Forgot password ?</a> Or <a href='#'> Sign up</a>
+              </p>
+           
           </div>
         </div>
 
