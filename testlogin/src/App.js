@@ -20,10 +20,11 @@ function App() {
               <input type="text" placeholder="user name" className='name'/>
             </div>
 
-            <div>
-              <img src={pass} alt="pass" className='pass' />
-              <input type="text" placeholder="password" className='pass'/>
+            <div className='second-input'>
+              <img src={pass} alt="pass" className='email' />
+              <input type="text" placeholder="password" className='name'/>
             </div>
+            <button>Login</button>
           </div>
         </div>
 
